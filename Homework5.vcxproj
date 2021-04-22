@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="ball.cpp" />
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="billboard.cpp" />
+    <ClCompile Include="cube.cpp" />
+    <ClCompile Include="DataIO.cpp" />
+    <ClCompile Include="directional_light.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="fog.cpp" />
+    <ClCompile Include="globalVar.cpp" />
+    <ClCompile Include="ground_floor.cpp" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="obj.cpp" />
+    <ClCompile Include="obstacle.cpp" />
+    <ClCompile Include="pointolite.cpp" />
+    <ClCompile Include="polyhedra.cpp" />
+    <ClCompile Include="PolyhedronLoader.cpp" />
+    <ClCompile Include="prism.cpp" />
+    <ClCompile Include="readbmp.cpp" />
+    <ClCompile Include="robot.cpp" />
+    <ClCompile Include="Spot_light.cpp" />
+    <ClCompile Include="trans.cpp" />
+    <ClCompile Include="vector_3f.cpp" />
+    <ClCompile Include="vector_4f.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="ball.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="billboard.h" />
+    <ClInclude Include="bmptype.h" />
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="DataIO.h" />
+    <ClInclude Include="directional_light.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="fog.h" />
+    <ClInclude Include="globalVar.h" />
+    <ClInclude Include="ground_floor.h" />
+    <ClInclude Include="group.h" />
+    <ClInclude Include="HIO_include.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="linked_list.h" />
+    <ClInclude Include="list_tree.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="obj.h" />
+    <ClInclude Include="obstacle.h" />
+    <ClInclude Include="pointolite.h" />
+    <ClInclude Include="polyhedra.h" />
+    <ClInclude Include="Polyhedron.h" />
+    <ClInclude Include="PolyhedronLoader.h" />
+    <ClInclude Include="prism.h" />
+    <ClInclude Include="robot.h" />
+    <ClInclude Include="Spot_light.h" />
+    <ClInclude Include="trans.h" />
+    <ClInclude Include="vector_3f.h" />
+    <ClInclude Include="vector_4f.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09E0AA43-C577-448B-BB05-5CC84151D8D6}</ProjectGuid>
+    <RootNamespace>Homework5</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\資工系\Library\glew\include;D:\資工系\Library\freeglut\include;$(IncludePath)</IncludePath>
+    <ReferencePath>D:\資工系\Library\glew\Win32\bin\Debug;D:\資工系\Library\freeglut\bin;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\資工系\Library\glew\Win32\lib\Debug;D:\資工系\Library\freeglut\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\資工系\Library\glew\include;D:\資工系\Library\freeglut\include;$(IncludePath)</IncludePath>
+    <ReferencePath>D:\資工系\Library\glew\Win32\bin;D:\資工系\Library\freeglut\bin;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\資工系\Library\glew\Win32\lib\Release;D:\資工系\Library\freeglut\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>XCOPY "D:\資工系\Library\freeglut\bin\freeglut.dll" "$(OutDir)" /Y/D/K/C/I
+XCOPY "D:\資工系\Library\glew\Win32\bin\Release\glew32.dll" "$(OutDir)" /Y/D/K/C/I
+XCOPY "D:\資工系\Library\glew\Win32\bin\Debug\glew32d.dll" "$(OutDir)" /Y/D/K/C/I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>XCOPY "D:\資工系\Library\freeglut\bin\freeglut.dll" "$(OutDir)" /Y/D/K/C/I
+XCOPY "D:\資工系\Library\glew\Win32\bin\Release\glew32.dll" "$(OutDir)" /Y/D/K/C/I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

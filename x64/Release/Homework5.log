@@ -1,0 +1,45 @@
+﻿  AABB.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  ball.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  base.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  cube.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  directional_light.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  entity.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  globalVar.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  ground_floor.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  group.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  light.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  main.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  obj.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  obstacle.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  pointolite.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  polyhedra.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  PolyhedronLoader.cpp
+PolyhedronLoader.cpp(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  prism.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  robot.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  Spot_light.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  trans.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  正在編譯...
+  vector_3f.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  vector_4f.cpp
+d:\資工系\1061_電腦圖學\code\homework5\HIO_include.h(11): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
